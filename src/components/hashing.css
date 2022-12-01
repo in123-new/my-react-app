@@ -1,0 +1,43 @@
+.hashing-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c3c3ea;
+}
+.hashing-content {
+    width: 40%;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 1px 3px #444468, 0 0 0 1px #5e5eb0;
+}
+.form-group label {
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5e5eb0;
+}
+.form-group input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #1d1d42;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    color: #5e5eb0;
+}
+.hashing-algorithms .hashing-algorithms-list {
+    display: flex;
+    justify-content: space-between;
+    color: #5e5eb0;
+}
+.hashed-output .hashed-algorithm-container {
+    width: 100%;
+    border: 1px solid #6060c4;
+}
+.hashed-output .hashed-algorithm-text {
+    padding: 10px;
+    word-wrap: break-word;
+    width: 90%;
+}
